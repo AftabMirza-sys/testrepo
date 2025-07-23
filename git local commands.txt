@@ -1,0 +1,18 @@
+install git and use locally commands:
+git config --global user.name "Your Name"
+git config --global user.email "you@example.com"
+git config --global --list
+git init 
+git log
+git status
+git diff
+git add file name or * for all
+git commit  with git commit -m "name of commitment"
+git show commit id:file path
+git switch -c
+git checkout commit id -- *
+
+git checkout commit id : filepath
+git checkout master -- * or filepath // master is the branch where you want to rollback changes.
+git restore . // . is for all files restoration
+git restore filepath // for specific file.
