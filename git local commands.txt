@@ -16,3 +16,15 @@ git checkout commit id : filepath
 git checkout master -- * or filepath // master is the branch where you want to rollback changes.
 git restore . // . is for all files restoration
 git restore filepath // for specific file.
+
+git reset --soft Head^
+git reset --hard Head^ // to reset and delete changes as well
+
+ git log -p -1 // for last 1 commit with difference.number can be increase for last increase commits
+
+git log --stat // for summary of changes.
+
+git log --pretty=oneline // to view merged and easy view.
+git log --pretty=format"%h-%an, %ar:%s"
+
+git log -S function name like h1 for h1 tag
